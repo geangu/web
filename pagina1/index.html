@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Titulo de mi página</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<style>
+
+	body {
+		background: url('./img/fondo.jpg');
+		background-repeat: no-repeat;
+	}
+
+	label {
+		display: inline-block;
+		width: 120px;
+		font-family: Roboto;
+	}
+
+	.btn-enviar{
+		background: cornflowerblue;
+		border: 0px;
+		padding: 0.7em;
+		float: right;
+		margin-top: 0.5em;
+	}
+
+	.clase1 {
+		background: black;
+		color: white;
+		padding: 1em;
+		font-size: 2em;
+		font-family: Lobster;	
+	}
+
+	#formulario {
+		background-color: rgba(0,0,0,0.7);
+		color: white;
+		margin: 3em  0em 0em 3em;
+		display: inline-block;
+		padding: 2em;
+	}
+
+</style>
+
+	</head>
+
+	<body>
+		<div class="clase1">
+			Pitalito RuleS!
+		</div>
+
+		<div>
+			<form id="formulario">
+
+				<div>
+					<label >Username</label>
+					<input type="text" name="username" value="" placeholder="Username" />
+				</div>
+				
+				<div>
+					<label>Password</label>
+					<input type="password" name="password" value="" placeholder="Password" />
+				</div>
+				
+				<button class="btn-enviar">Enviar</button>
+			
+			</form>
+		</div>
+	</body>
+
+</html>
