@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+.cuerpo{
+	background-image: url('../img/fondo.jpg');
+}
+
+.titulo{
+	background-color: rgba(0,0,0,1);
+	padding: 1.5em;
+}
+
+.titulo h1 {
+	color: white !important;
+	font-family: Lobster;
+	display: inline-block;
+}
+
+.titulo span {
+	color: white !important;
+	font-size: 3em;
+}
+
+.formulario {
+	background-color: rgba(0,0,0,0.7);
+	padding: 1em;
+	margin-top: 3em;
+}
+
+.formulario label{
+	color: white !important;
+	font-family: Roboto, sans-serif;
+	font-size: 1.2em;
+}
+
+.btn-enviar{
+	margin-bottom: 0px;
+	font-family: Roboto, sans-serif;
+	font-size: 0.8em !important;
+}
